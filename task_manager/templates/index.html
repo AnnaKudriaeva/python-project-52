@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block content %}
+<div class="card my-4">
+    <div class="card-body p-5 bg-light">
+        <div class="display-5">
+            <p>{% trans 'HEY' %} {{ user.username }}</p>
+        </div>
+    </div>
+</div>
+{% endblock content %}
